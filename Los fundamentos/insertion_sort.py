@@ -1,4 +1,4 @@
-arr=[40, 11, 13, -5, 6]
+arr=[20, 4, 1, -5, 6]
 
 def sorting(arr):
     for i in range(1, len(arr)):
