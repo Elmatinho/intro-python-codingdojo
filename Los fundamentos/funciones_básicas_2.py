@@ -1,7 +1,11 @@
 # 1 cuenta regresiva
 def hacia_atras(a):
-    for a in range(a,-1,-1):
-        b=print(a)
+    lista=[]
+    for i in range(a,-1,-1):
+        lista.append(i)
+
+    return lista
+    
 hacia_atras(8)
 
 #2 print and return
@@ -9,6 +13,7 @@ def print_return(a,b):
     print(a)
     return b
 print(print_return(1,2))
+print_return(1000,90)
 
 # 3 primero + lobgitud
 def primero(a):
