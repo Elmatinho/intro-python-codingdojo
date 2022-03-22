@@ -3,7 +3,7 @@ class User:
         self.name=username
         self.email=email_address
         self.account_balance=0
-        self.other_user=username
+        
 
     def make_deposit(self, amount):
         self.account_balance += amount
