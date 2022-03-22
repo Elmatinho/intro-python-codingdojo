@@ -20,9 +20,9 @@ class User:
     
         
 
-matias=User("Matías", "matias@email.com","Matías", "matias@email.com")
-cecilia=User("Cecilia","cecilia@email.com","Matías", "matias@email.com")
-cynthia=User("Cynthia","Cynthia@email.com","Matías", "matias@email.com")
+matias=User("Matías", "matias@email.com")
+cecilia=User("Cecilia","cecilia@email.com")
+cynthia=User("Cynthia","Cynthia@email.com")
 matias.make_deposit(100)
 matias.make_deposit(300)
 matias.make_deposit(100)
