@@ -1,6 +1,6 @@
 #Básico
-for x in range (151):
-    print(x)
+for contador in range (0,151,1):
+    print(contador)
     
 # Múltiplos de 5 
 for i in range(5,1001,5):
